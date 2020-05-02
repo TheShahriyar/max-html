@@ -1,9 +1,9 @@
 //Global Styles Start
 
 body {
-	font-family: $lato-font;
-	color: $text-color;
-	font-size: 15px;
+    font-family: $lato-font;
+    color: $text-color;
+    font-size: 15px;
     line-height: 25px;
     font-weight: 400;
     overflow-x: hidden;
@@ -24,14 +24,15 @@ body {
     width: 1220px;
     margin: 0 auto;
     background-color: #fff;
-    -webkit-box-shadow:0 0 10px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    -o-box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
     .tp-leftarrow {
         left: 70px !important;
     }
+
     .tp-rightarrow {
         left: 95% !important;
     }
@@ -42,20 +43,26 @@ body {
     }
 }
 
-ul, ol {
+ul,
+ol {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     text-transform: uppercase;
     margin: 0;
     padding: 0;
-    font-weight:600;
+    font-weight: 600;
     color: $title-color;
     letter-spacing: 1px;
-    font-family: $lato-font!important;
+    font-family: $lato-font !important;
 }
 
 img {
@@ -77,8 +84,9 @@ img {
 //}
 
 .text-left {
-	text-align: left;
+    text-align: left;
 }
+
 .text-right {
     text-align: right;
 }
@@ -103,12 +111,14 @@ img {
 }
 
 a {
-	-webkit-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
     transition: all 0.3s;
     text-decoration: none;
+
     &:hover {
         text-decoration: none;
     }
+
     &:focus {
         text-decoration: none;
         color: $text-color;
@@ -133,6 +143,7 @@ a {
 .main-container {
     overflow: hidden;
 }
+
 .dropcap {
     font-size: 38px;
     font-weight: 400;
@@ -171,12 +182,14 @@ hr {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 .btn {
     -webkit-border-radius: 0;
     border-radius: 0;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
+
 .btn-primary {
     font-size: 14px;
     font-style: normal !important;
@@ -201,6 +214,7 @@ hr {
     &.white {
         background: #fff;
         color: $brand-primary !important;
+
         &:hover {
             background: $black-russian-grey;
         }
@@ -219,6 +233,7 @@ hr {
     &.yellow {
         background: $yellow;
         color: $white !important;
+
         &:hover {
             background: $black-russian-grey;
         }
@@ -227,6 +242,7 @@ hr {
     &.blue {
         background: $light-blue;
         color: $white !important;
+
         &:hover {
             background: $black-russian-grey;
         }
@@ -234,7 +250,8 @@ hr {
 }
 
 
-.right-half, .left-half {
+.right-half,
+.left-half {
     position: absolute;
     right: 0;
     top: 0;
@@ -245,6 +262,7 @@ hr {
     &.width33 {
         width: 33%;
     }
+
     &.width50 {
         width: 50%;
     }
@@ -268,8 +286,8 @@ hr {
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0;
-        letter-spacing: 0.4em;
-    
+    letter-spacing: 0.4em;
+
     li {
         display: inline-block;
         padding: 0 5px;
@@ -278,6 +296,7 @@ hr {
             color: #fff;
             -webkit-transition: all 0.3s;
             transition: all 0.3s;
+
             &:hover {
                 color: $brand-primary;
             }
@@ -292,7 +311,8 @@ hr {
             padding-left: 5px;
         }
 
-        &:first-child, &:last-child {
+        &:first-child,
+        &:last-child {
             &:after {
                 content: "";
             }
@@ -303,7 +323,7 @@ hr {
 .page-title {
     text-align: center;
     margin-bottom: 30px;
-    
+
     h1 {
         font-size: 30px;
         line-height: 54px;
@@ -321,6 +341,7 @@ hr {
     position: fixed !important;
     right: 0;
     left: 0;
+    top: 0;
     z-index: 1100;
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
@@ -338,74 +359,97 @@ hr {
 .mt60 {
     margin-top: 60px;
 }
+
 .mt65 {
     margin-top: 65px;
 }
+
 .mt50 {
     margin-top: 50px;
 }
+
 .mt30 {
     margin-top: 30px;
 }
+
 .mt25 {
     margin-top: 25px !important;
 }
+
 .mt20 {
     margin-top: 20px !important;
 }
+
 .mb10 {
     margin-bottom: 10px !important;
 }
+
 .mb15 {
     margin-bottom: 15px !important;
 }
+
 .mb20 {
     margin-bottom: 20px;
 }
+
 .mb25 {
     margin-bottom: 25px;
 }
+
 .mb30 {
     margin-bottom: 30px;
 }
+
 .mb40 {
     margin-bottom: 40px;
 }
+
 .mb50 {
     margin-bottom: 50px !important;
 }
+
 .mb60 {
     margin-bottom: 60px;
 }
+
 .mr10 {
     margin-right: 10px;
 }
+
 .mr50 {
     margin-right: 50px !important;
 }
+
 .ml50 {
     margin-left: 50px !important;
 }
+
 //margins end
 //paddings start
 .pad15 {
     padding: 15px 0;
 }
+
 .pad30 {
     padding: 30px 0;
 }
+
 .pad50 {
     padding: 50px 0;
 }
+
 .pad60 {
     padding: 60px 0;
 }
+
 .pad80 {
     padding: 80px 0;
 }
+
 .pad100 {
     padding: 100px 0;
 }
+
 .pad120 {
     padding: 120px 0;
 }
@@ -413,45 +457,59 @@ hr {
 .pad-t100 {
     padding-top: 100px;
 }
+
 .pad-t80 {
     padding-top: 80px;
 }
+
 .pad-t30 {
     padding-top: 30px;
 }
+
 .pad-t60 {
     padding-top: 60px;
 }
+
 .pad-t90 {
     padding-top: 90px;
 }
+
 .pad-t120 {
     padding-top: 120px;
 }
+
 .pad-b10 {
     padding-bottom: 10px;
 }
+
 .pad-b30 {
     padding-bottom: 30px;
 }
+
 .pad-b40 {
     padding-bottom: 40px;
 }
+
 .pad-b50 {
     padding-bottom: 50px;
 }
+
 .pad-b60 {
     padding-bottom: 60px;
 }
+
 .pad-b70 {
     padding-bottom: 70px;
 }
+
 .pad-b80 {
     padding-bottom: 80px;
 }
+
 .pad-b100 {
     padding-bottom: 100px;
 }
+
 //paddings start
 
 
@@ -465,10 +523,10 @@ hr {
 
 
 
-.section-title{
+.section-title {
     position: relative;
     margin: 0 0 80px;
-    
+
     h3 {
         position: relative;
         font-size: 40px;
@@ -492,7 +550,7 @@ hr {
             background: $brand-primary;
         }
     }
-    
+
     &.white {
         h3 {
             color: $white;
@@ -512,6 +570,7 @@ hr {
 
 
     span {
+
         // &:before {
         //     content: '...';
         //     display: inline-block;
@@ -528,7 +587,7 @@ hr {
 }
 
 .footer-title {
-    
+
     h3 {
         font-size: 17px;
         text-transform: uppercase;
@@ -543,15 +602,17 @@ hr {
         font-size: 30px;
         line-height: 30px;
         text-transform: uppercase;
+
         span {
             color: $brand-primary;
         }
     }
 }
 
-.section-title-2{
+.section-title-2 {
     position: relative;
     margin: 0 0 50px;
+
     h3 {
         color: #d2d2d2;
         font-size: 18px;
@@ -563,6 +624,7 @@ hr {
             color: $brand-primary !important
         }
     }
+
     &:after {
         position: absolute;
         bottom: 0;
@@ -574,12 +636,15 @@ hr {
         opacity: 1;
         background: $brand-primary;
     }
+
     &.white {
         h3 {
             color: $white;
         }
     }
+
     span {
+
         // &:before {
         //     content: '...';
         //     display: inline-block;
@@ -603,7 +668,7 @@ hr {
             width: 40px;
             height: 3px;
             margin: -28px auto;
-            
+
         }
     }
 }
@@ -662,24 +727,27 @@ blockquote {
 
 
 // flaticon override start
-[class^="flaticon-"]:before, 
-[class*=" flaticon-"]:before, 
-[class^="flaticon-"]:after, 
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
 [class*=" flaticon-"]:after {
     margin-left: 0;
 }
+
 //flaticon override end
 
 //FontAwesome override start
 .fa-ul {
     li {
         padding: 5px 0;
+
         .fa-li {
             margin-top: 8px;
             color: $brand-primary;
         }
     }
 }
+
 //FontAwesome override end
 
 //FlexSlider override start
@@ -687,6 +755,7 @@ blockquote {
     margin: 20px 0 0;
     position: static;
     overflow: visible;
+
     li {
         float: none;
         width: 60px;
@@ -695,6 +764,7 @@ blockquote {
         transform: rotate(-45deg);
         margin: 0 8px;
     }
+
     img {
         border: 2px solid #545454;
         opacity: 0.4;
@@ -702,16 +772,19 @@ blockquote {
         transition: all 0.3s;
         position: relative;
         z-index: 0;
+
         &.flex-active {
             border: 2px solid $brand-primary;
             z-index: 1;
         }
+
         &:hover {
             border: 2px solid $brand-primary;
             z-index: 1;
         }
     }
 }
+
 //FlexSlider override end
 
 .hvr-in {
@@ -726,6 +799,7 @@ blockquote {
     transition-property: color;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
+
     &:before {
         content: "";
         position: absolute;
@@ -746,9 +820,15 @@ blockquote {
         -webkit-transition-timing-function: ease-out;
         transition-timing-function: ease-out;
     }
-    &:hover, &:focus, &:active {
+
+    &:hover,
+    &:focus,
+    &:active {
         color: white;
-        &:before, &:before, &:before {
+
+        &:before,
+        &:before,
+        &:before {
             -webkit-transform: scaleX(0);
             transform: scaleX(0);
         }
@@ -767,6 +847,7 @@ blockquote {
     transition-property: color;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
+
     &:before {
         content: "";
         position: absolute;
@@ -787,9 +868,15 @@ blockquote {
         -webkit-transition-timing-function: ease-out;
         transition-timing-function: ease-out;
     }
-    &:hover, &:focus, &:active {
+
+    &:hover,
+    &:focus,
+    &:active {
         color: white;
-        &:before, &:before, &:before {
+
+        &:before,
+        &:before,
+        &:before {
             -webkit-transform: scaleX(1);
             transform: scaleX(1);
         }
