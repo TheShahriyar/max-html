@@ -243,6 +243,9 @@ hr {
   margin-bottom: 0;
   letter-spacing: 0.4em;
 }
+.breadcrumb ul {
+  margin: 0 auto;
+}
 .breadcrumb li {
   display: inline-block;
   padding: 0 5px;
