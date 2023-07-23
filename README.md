@@ -1,2 +1,2 @@
 # max-template
-## Demo Link: https://theshahriyar.com/html/max/
+## Demo Link: https://max-html-shahriyar.netlify.app/
